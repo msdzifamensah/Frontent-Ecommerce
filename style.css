@@ -111,7 +111,7 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #1ABC9C;
+	background: #92278F;
 	color: #FFF;
 	text-shadow: none;
 }
@@ -145,7 +145,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #EC008C;
 }
 
 a:hover { color: #222; }
@@ -172,7 +172,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 }
 
 h5,
@@ -380,7 +380,7 @@ span.middot {
 .bgcolor,
 .bgcolor #header-wrap { background-color: #1ABC9C !important; }
 
-.color { color: #1ABC9C !important; }
+.color { color: #EC008C !important; }
 
 .border-color { border-color: #1ABC9C !important; }
 
@@ -416,7 +416,7 @@ span.middot {
 
 .font-body { font-family: 'Lato', sans-serif; }
 
-.font-primary { font-family: 'Raleway', sans-serif; }
+.font-primary { font-family: 'Arima Madurai', cursive; }
 
 .font-secondary { font-family: 'Crete Round', serif; }
 
@@ -1003,7 +1003,7 @@ body.stretched #header.full-header .container {
 #logo {
 	position: relative;
 	float: left;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	font-size: 36px;
 	line-height: 100%;
 	margin-right: 40px;
@@ -1132,7 +1132,7 @@ body.stretched #header.full-header .container {
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
 	transition: margin .4s ease, padding .4s ease;
@@ -1156,7 +1156,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a { color: #EC008C; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -1295,7 +1295,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a {
 	font-size: 13px;
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	letter-spacing: 1px;
 	text-transform: uppercase !important;
 	margin-bottom: 15px;
@@ -1760,7 +1760,7 @@ body.top-search-open #top-search form {
 	color: #333;
 	font-weight: 700;
 	margin-top: 0 !important;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	letter-spacing: 2px;
 }
 
@@ -5015,7 +5015,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 	padding: 30px 0;
 	text-align: center;
 	color: #444;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 24px;
@@ -5257,7 +5257,7 @@ body:not(.device-touch) .entry-link {
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 }
 
 .post-timeline .entry-timeline {
@@ -5904,11 +5904,11 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .product-image > a {
 .single-product .product-title h2 a { color: #333; }
 
 .product-title h3 a:hover,
-.single-product .product-title h2 a:hover { color: #1ABC9C; }
+.single-product .product-title h2 a:hover { color: #EC008C; }
 
 .product-price {
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: 400;
 	color: #444;
 	margin-bottom: 4px;
 }
@@ -6117,7 +6117,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .product-overlay a {
 .single-product .product-price {
 	float: left;
 	font-size: 24px;
-	color: #1ABC9C;
+	color: #EC008C;
 	margin-bottom: 0;
 }
 
@@ -6674,7 +6674,7 @@ body:not(.device-touch) .button {
 	font-size: 22px;
 	height: auto;
 	line-height: 1;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 }
 
 .button.button-desc span {
@@ -6765,7 +6765,7 @@ body:not(.device-touch) .button {
 .button.button-border.button-desc { line-height: 1; }
 
 .button.button-border:not(.button-fill):hover {
-	background-color: #444;
+	background-color: #EC008C;
 	color: #FFF;
 	border-color: transparent !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -9266,7 +9266,7 @@ ul.tab-nav-lg li {
 ul.tab-nav-lg li a {
 	display: inline-block;
 	color: #444;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -10225,7 +10225,7 @@ body:not(.device-touch) .team-overlay {
 .counter {
 	font-size: 42px;
 	font-weight: 600;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 }
 
 .counter.counter-small { font-size: 28px; }
@@ -10964,7 +10964,7 @@ label {
 	display: inline-block;
 	font-size: 13px;
 	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #555;
@@ -12240,7 +12240,7 @@ body:not(.device-touch) .tagcloud a {
 .widget-filter-links li a {
 	display: block;
 	color: #444;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	font-weight: 500;
 }
 
@@ -12296,7 +12296,7 @@ body:not(.device-touch) .tagcloud a {
 	font-size: 13px;
 	font-weight: 700;
 	letter-spacing: 2px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 }
 
 .nav-tree li i {
@@ -12360,7 +12360,7 @@ body:not(.device-touch) .tagcloud a {
 	font-weight: bold;
 	text-align: right;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	letter-spacing: 2px;
 }
 
