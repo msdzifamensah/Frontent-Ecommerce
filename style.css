@@ -378,7 +378,7 @@ span.middot {
 }
 
 .bgcolor,
-.bgcolor #header-wrap { background-color: #1ABC9C !important; }
+.bgcolor #header-wrap { background-color: #EC008C !important; }
 
 .color { color: #EC008C !important; }
 
@@ -8121,15 +8121,15 @@ body:not(.device-touch) .button.button-full strong {
 .process-steps li.active h5,
 .process-steps li.ui-tabs-active h5 {
 	font-weight: 600;
-	color: #1ABC9C;
+	color: #000;
 }
 
 .process-steps li.active a,
 .process-steps li.ui-tabs-active a {
-	background-color: #1ABC9C !important;
+	background-color: #EC008C !important;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	border-color: #1ABC9C !important;
+	border-color: #EC008C !important;
 }
 
 .process-steps li:before,
@@ -8248,9 +8248,9 @@ body:not(.device-touch) .button.button-full strong {
 
 .i-rounded,
 .i-plain,
-.i-circled,
 .i-bordered,
-.social-icon {
+.social-icon
+ {
 	display: block;
 	float: left;
 	margin: 4px 11px 7px 0;
@@ -8261,6 +8261,19 @@ body:not(.device-touch) .button.button-full strong {
 	cursor: pointer;
 	font-style: normal;
 }
+
+.i-circled
+ {
+	display: block;
+	float: left;
+	margin: 4px 11px 7px 0;
+	text-align: center !important;
+	font-size: 28px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	font-style: normal;
+}
+
 
 body:not(.device-touch) .i-rounded,
 body:not(.device-touch) .i-plain,
@@ -10052,6 +10065,13 @@ body:not(.device-touch) .team-overlay {
 	font-weight: normal;
 	color: #999;
 	margin: 0 0 0 3px;
+}
+
+.price-label{
+	font-size: 15px;
+	font-weight: normal;
+	color: #999;
+
 }
 
 
