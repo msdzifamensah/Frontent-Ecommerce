@@ -5907,7 +5907,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .product-image > a {
 .single-product .product-title h2 a:hover { color: #EC008C; }
 
 .product-price {
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 	color: #444;
 	margin-bottom: 4px;
@@ -12424,7 +12424,7 @@ body:not(.device-touch) .tagcloud a {
 .pagination > li > a:hover,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
-.pagination > li > span:focus { color: #1ABC9C; }
+.pagination > li > span:focus { color: #EC008C; }
 
 .btn-link:hover,
 .btn-link:focus { color: #222; }
