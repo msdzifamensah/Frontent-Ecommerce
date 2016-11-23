@@ -1031,6 +1031,15 @@ body.stretched #header.full-header .container {
 
 #logo a.retina-logo { display: none; }
 
+.listform{
+	margin-left: -3%;
+	margin-bottom: 25%;
+}
+
+#purchasedSewn{
+	margin-top: 50%;
+}
+
 
 /* ----------------------------------------------------------------
 	Header Right Area
@@ -1067,6 +1076,7 @@ body.stretched #header.full-header .container {
 	font-weight: 400;
 	color: #1ABC9C;
 }
+
 
 
 /* ----------------------------------------------------------------
@@ -11591,7 +11601,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
+#gotoTop:hover { background-color: #EC008C; }
 
 
 /* ----------------------------------------------------------------
