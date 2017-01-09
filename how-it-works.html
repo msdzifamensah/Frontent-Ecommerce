@@ -45,9 +45,9 @@
 
 					<!-- Logo
 					============================================= -->
-					<div id="logo">
-						<a href="index-shop.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+				<div id="logo">
+						<a href="index-shop.html" class="standard-logo"><img src="images/wdlog.png" alt="WedDresser Logo"></a>
+						<a href="index-shop.html" class="retina-logo"><img src="images/Wed(10).png" alt="WedDresser Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -121,7 +121,9 @@
 					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-body">
-								<form method="POST" action="">
+								<form action="https://getsimpleform.com/messages?form_api_token=2a4d3b5e8e0ee5da73b9e3ceae832632" enctype="multipart/form-data" onSubmit="alert('Thank you for your listing your gown.');"method="post">
+								  <input type='hidden' name='redirect_to' value='file:///home/admin/Documents/coming%20up%20app/view-dresses.html' />
+
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -131,33 +133,33 @@
 											<div class="listform">
 												<div class="col-md-6">
 													<label for="form-condition-1">Enter Name</label>
-													<input type="text" required class="sm-form-control required" id="form-condition-1" name="form-condition-1" required>
+													<input type="text" required class="sm-form-control required" id="form-condition-1" name="name" required>
 												</div>
 												<div class="col-md-6">
 													<label for="form-condition-1">Phone</label>
-													<input type="tel" class="sm-form-control required" id="form-condition-1" name="form-condition-1" required>
+													<input type="tel" class="sm-form-control required" id="form-condition-1" name="number" required>
 												</div>
 											</div>
 											<div class="listform">
 												<div class="col-md-6">
 													<label for="form-condition-1">Size of Dress</label>
-													<input type="text" class="sm-form-control required" id="form-condition-1" name="form-condition-1">
+													<input type="text" class="sm-form-control required" id="form-condition-1" name="size">
 												</div>
 												<div class="col-md-6">
 													<label for="form-condition-1">Original Retail Price</label>
-													<input type="text" class="sm-form-control required" id="form-condition-1" name="form-condition-1" required>
+													<input type="text" class="sm-form-control required" id="form-condition-1" name="retail_price" required>
 												</div>
 											</div>
 											<div class="col_full" id="purchasedSewn">
 												<label for="form-condition-1">Was your dress purchased or sewn?</label>
 												<div class="radio" >
-													<label class="radio-inline"><input type="radio" name="optradio">Purchased</label>
-													<label class="radio-inline"><input type="radio" name="optradio">Sewn</label>
+													<label class="radio-inline"><input type="radio" name="purchased">Purchased</label>
+													<label class="radio-inline"><input type="radio" name="sewn">Sewn</label>
 												</div>
 											</div>
 											<div class="col_full">
 												<label for="form-condition-1">Condition of Dress</label>
-												<select id="form-condition-1" name="form-condition-1" class="required sm-form-control" required>
+												<select id="form-condition-1" name="condition" class="required sm-form-control" required>
 													<option value="">-- Select One --</option>
 													<option value="New">New</option>
 													<option value="Worn">Worn</option>
@@ -166,17 +168,23 @@
 
 											<div class="col_full">
 												<label for="form-condition-1">Location</label>
-												<input type="text" class="sm-form-control required" id="form-condition-1" name="form-condition-1">
+												<select id="form-condition-1" name="location" class="required sm-form-control" required>
+													<option value="">-- Select One --</option>
+													<option value="Accra">Accra</option>
+													<option value="Tema">Tema</option>
+													<option value="Kumasi">Kumasi</option>
+													<option value="Koforidua">Koforidua</option>
+												</select>
 											</select>
 										</div>
 										<div class="col_full bottommargin">
 											<label>Upload Photos of Dress</label>
-											<input id="input-1" type="file" class="file" required>
+											<input id="input-1" type="file" name="image" class="file" required>
 										</div>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										<button type="submit" class="btn btn-primary">Submit</button>
+										<button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
 									</div>
 								</div>
 							</form>
@@ -242,7 +250,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2016 All Rights Reserved by WedDresser Inc.<br>
+						Copyrights &copy; 2017 All Rights Reserved by WedDresser Inc.<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 

@@ -46,8 +46,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						<a href="index-shop.html" class="standard-logo"><img src="images/wdlog.png" alt="WedDresser Logo"></a>
+						<a href="index-shop.html" class="retina-logo"><img src="images/Wed(10).png" alt="WedDresser Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -206,49 +206,43 @@
 					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-body">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										<h4 class="modal-title" id="myModalLabel">Enter Details</h4>
-									</div>
-									<div class="modal-body">
-										<h4>Kindly input your name,location and number </h4>
-										<form>
-										<div class="col_full">
-											<label for="form-condition-1">Enter Name</label>
-											<input type="text" class="sm-form-control required" id="form-condition-1" name="form-condition-1" value="">
+								<form action="" method="post">
+								  <input type='hidden' name='redirect_to' value='file:///home/admin/Documents/coming%20up%20app/view-dresses.html' />
+
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title" id="myModalLabel">Try on Ready.</h4>
 										</div>
-										<div class="col_full">
-											<label for="form-condition-1">Phone Number</label>
-											<input type="text" class="sm-form-control required" id="form-condition-1" name="form-condition-1" value="">
-										</div>
-											<div class="col_full">
-											<label for="form-condition-1">Location</label>
-												<select class="sm-form-control">
-													<option value="AC">Accra</option>
-													<option value="TM">Tema</option>
-													<option value="TML">Tamale</option>
-													<option value="CC">Cape Coast</option>
-													<option value="TD">Takoradi</option>
-													<option value="SY">Sunyani</option>
-													<option value="BL">Bolgatanga</option>
-													<option value="WA">Wa</option>
-													<option value="HO">Ho</option>
-													<option value="OB">Obuasi</option>
-													<option value="KU">Kumasi</option>
-												</select>
+										<div class="modal-body">
+											<div class="listform">
+												<div class="col-md-6">
+													<label for="form-condition-1">Enter Name</label>
+													<input type="text" required class="sm-form-control required" id="form-condition-1" name="name" required>
+												</div>
+												<div class="col-md-6">
+													<label for="form-condition-1">Phone</label>
+													<input type="tel" class="sm-form-control required" id="form-condition-1" name="number" required>
+												</div>
 											</div>
-										</form>
-										
-
-
-
+											<div class="col_full">
+												<label for="form-condition-1">Location</label>
+												<select id="form-condition-1" name="location" class="required sm-form-control" required>
+													<option value="">-- Select One --</option>
+													<option value="Accra">Accra</option>
+													<option value="Tema">Tema</option>
+													<option value="Kumasi">Kumasi</option>
+													<option value="Koforidua">Cape Coast</option>
+												</select>
+											</select>
+										</div>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										<button type="button" class="btn btn-primary">Submit</button>
+										<button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
 									</div>
 								</div>
+							</form>
 							</div>
 						</div>
 					</div>
@@ -272,7 +266,7 @@
 					<div class="container clearfix">
 
 						<div class="col_half">
-							Copyrights &copy; 2016 by WedDresser Inc.<br>
+							Copyrights &copy; 2017 by WedDresser Inc.<br>
 							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 						</div>
 
