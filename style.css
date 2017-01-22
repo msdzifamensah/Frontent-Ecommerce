@@ -212,7 +212,9 @@ blockquote,
 address,
 table,
 fieldset,
-form { margin-bottom: 30px; }
+form { margin-bottom: 30px; 
+font-size: 18px;
+}
 
 small { font-family: 'Lato', sans-serif; }
 
@@ -7717,7 +7719,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain.fbox-light .fbox-icon img { color: #888; }
 
 .feature-box.fbox-plain.fbox-dark .fbox-icon i,
-.feature-box.fbox-plain.fbox-dark .fbox-icon img { color: #444; }
+.feature-box.fbox-plain.fbox-dark .fbox-icon img { color: #EC008C; }
 
 
 /* Feature Box - Center
