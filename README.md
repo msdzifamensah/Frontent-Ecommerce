@@ -1,2 +1,0 @@
-# Weddresser
-Weddresser official webpage
